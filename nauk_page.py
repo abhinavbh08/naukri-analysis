@@ -13,7 +13,7 @@ proxyDict = {
           'http'  : '172.16.12.2:3128', 
           'https' : '172.16.12.2:3128'
         }
-auth = HTTPProxyAuth('abhinav', 'redemption')
+auth = HTTPProxyAuth('abhinav', '********')
 
 #page = requests.get("https://www.naukri.com/data-scientist-jobs")
 #soup = BeautifulSoup(page.content, 'html')
