@@ -8,7 +8,7 @@ proxyDict = {
           'http'  : '172.16.12.2:3128', 
           'https' : '172.16.12.2:3128'
         }
-auth = HTTPProxyAuth('abhinav', 'redemption')
+auth = HTTPProxyAuth('abhinav', '**********')
 site_add = "https://www.naukri.com/data-scientist-jobs"
 
 req_list, loc_list, exp_list, job_list, sal_list = get_data(site_add, proxyDict, auth)
