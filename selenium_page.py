@@ -19,4 +19,8 @@ single_job = data.find(class_="top")
 salary = single_job.find(class_="salary").find("span").get_text()
 experience = single_job.find(class_="exp").find("span").get_text()
 location = single_job.find(class_="loc").find("a").get_text()
+key_skills_list = []
+key_skills = data.find(class_="key-skill").findAll("a")
+for skill in key_skills:
+    key_skills_list.append(skill.find("span").get_text())
 abc = 5
