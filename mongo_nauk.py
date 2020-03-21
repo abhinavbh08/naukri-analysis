@@ -2,7 +2,6 @@ from pymongo import MongoClient
 from requests.auth import HTTPProxyAuth
 from nauk_page import get_data
 
-
 client = MongoClient()
 proxyDict = { 
           'http'  : '172.16.12.2:3128', 
